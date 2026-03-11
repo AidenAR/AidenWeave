@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+/analysis.json
+.vercel
+.railway
+*.log
+.DS_Store
+tsconfig.tsbuildinfo
