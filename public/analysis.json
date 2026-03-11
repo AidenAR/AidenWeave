@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-03-11T05:06:39.433Z",
+  "generatedAt": "2026-03-11T16:10:43.840Z",
   "summary": {
     "repo": "PostHog/posthog",
     "windowStart": "2025-12-11",
     "windowEnd": "2026-03-11",
-    "prsAnalyzed": 5063,
-    "reviewsAnalyzed": 18778,
+    "prsAnalyzed": 3570,
+    "reviewsAnalyzed": 11922,
     "engineersAnalyzed": 115,
-    "botsFiltered": 186
+    "botsFiltered": 123
   },
   "topEngineers": [
     {
@@ -15,47 +15,52 @@
       "name": "Rafael Audibert",
       "avatarUrl": "https://avatars.githubusercontent.com/u/32079912?u=c3771922a6d7204c1d037e4c44e37325c42c6cb9&v=4",
       "rank": 1,
-      "compositeScore": 89,
+      "compositeScore": 91.2,
       "why": [
-        "Reviewed 436 PRs from 57 authors — top reviewer on the team",
-        "Shipped 136 PRs across 13 of 13 weeks — top 3%",
-        "71% non-trivial PRs, avg 28 files per PR — substantial changes"
+        "Reviewed 275 PRs from 49 authors — top reviewer on the team",
+        "Shipped 108 PRs across 11 of 13 weeks — top 3 shipper",
+        "73% non-trivial PRs, avg 28 files per PR — substantial changes"
       ],
       "dimensions": {
-        "shipping": 93.3,
-        "reach": 87,
+        "shipping": 96.2,
+        "reach": 91.6,
         "reviewImpact": 99.1,
         "collaboration": 65.8,
-        "changeSignificance": 92.5
+        "changeSignificance": 95.7
       },
       "raw": {
-        "mergedPrCount": 136,
-        "activeWeeks": 13,
+        "mergedPrCount": 108,
+        "activeWeeks": 11,
         "totalWeeks": 13,
-        "shippingConsistency": 1,
+        "shippingConsistency": 0.8461538461538461,
         "medianMergeHours": 22.7,
-        "p90MergeHours": 121.1,
-        "uniqueTopDirs": 38,
-        "uniqueSecondLevelDirs": 137,
-        "directoryEntropy": 2.35,
-        "crossAreaPrRatio": 0.43,
-        "reviewsGiven": 436,
-        "uniqueAuthorsReviewed": 57,
-        "reviewsOnMergedPrs": 436,
-        "medianReviewTurnaroundHours": 5.7,
-        "uniqueCollaborators": 71,
-        "bidirectionalCollaborators": 30,
+        "p90MergeHours": 127.7,
+        "uniqueTopDirs": 36,
+        "uniqueSecondLevelDirs": 125,
+        "directoryEntropy": 2.43,
+        "crossAreaPrRatio": 0.45,
+        "reviewsGiven": 275,
+        "uniqueAuthorsReviewed": 49,
+        "reviewsOnMergedPrs": 275,
+        "medianReviewTurnaroundHours": 2.3,
+        "uniqueCollaborators": 64,
+        "bidirectionalCollaborators": 22,
         "commentCount": 0,
-        "avgFilesChangedPerPr": 27.7,
-        "avgNetLinesPerPr": 463,
-        "multiAreaPrCount": 34,
-        "nonTrivialPrRatio": 0.71
+        "avgFilesChangedPerPr": 27.9,
+        "avgNetLinesPerPr": 490,
+        "multiAreaPrCount": 30,
+        "nonTrivialPrRatio": 0.73
       },
       "weeklyActivity": [
         {
+          "week": "2025-12-01",
+          "mergedPrs": 0,
+          "reviewsGiven": 1
+        },
+        {
           "week": "2025-12-15",
           "mergedPrs": 12,
-          "reviewsGiven": 34
+          "reviewsGiven": 33
         },
         {
           "week": "2025-12-22",
@@ -65,71 +70,66 @@
         {
           "week": "2025-12-29",
           "mergedPrs": 6,
-          "reviewsGiven": 16
+          "reviewsGiven": 15
         },
         {
           "week": "2026-01-05",
-          "mergedPrs": 4,
-          "reviewsGiven": 38
-        },
-        {
-          "week": "2026-01-12",
-          "mergedPrs": 13,
-          "reviewsGiven": 43
+          "mergedPrs": 5,
+          "reviewsGiven": 31
         },
         {
           "week": "2026-01-19",
-          "mergedPrs": 7,
-          "reviewsGiven": 39
+          "mergedPrs": 0,
+          "reviewsGiven": 2
         },
         {
           "week": "2026-01-26",
-          "mergedPrs": 18,
-          "reviewsGiven": 37
+          "mergedPrs": 9,
+          "reviewsGiven": 19
         },
         {
           "week": "2026-02-02",
           "mergedPrs": 14,
-          "reviewsGiven": 26
+          "reviewsGiven": 25
         },
         {
           "week": "2026-02-09",
-          "mergedPrs": 13,
-          "reviewsGiven": 41
+          "mergedPrs": 10,
+          "reviewsGiven": 26
         },
         {
           "week": "2026-02-16",
           "mergedPrs": 19,
-          "reviewsGiven": 39
+          "reviewsGiven": 15
         },
         {
           "week": "2026-02-23",
           "mergedPrs": 12,
-          "reviewsGiven": 40
+          "reviewsGiven": 28
         },
         {
           "week": "2026-03-02",
-          "mergedPrs": 5,
-          "reviewsGiven": 37
+          "mergedPrs": 3,
+          "reviewsGiven": 31
         },
         {
           "week": "2026-03-09",
-          "mergedPrs": 8,
-          "reviewsGiven": 31
+          "mergedPrs": 13,
+          "reviewsGiven": 34
         }
       ],
       "topDirectories": [
         {
           "path": "frontend/src",
-          "fileCount": 654
+          "fileCount": 547
         },
         {
           "path": "frontend/__snapshots__",
-          "fileCount": 637
+          "fileCount": 501
         },
         {
           "path": "services/mcp",
-          "fileCount": 314
+          "fileCount": 246
         },
         {
           "path": "docs/onboarding",
@@ -137,305 +137,19 @@
         },
         {
           "path": "products/revenue_analytics",
-          "fileCount": 47
+          "fileCount": 44
         },
         {
           "path": "posthog/cdp",
           "fileCount": 34
         },
         {
-          "path": ".github/workflows",
-          "fileCount": 32
+          "path": "bin/hobby-installer",
+          "fileCount": 30
         },
         {
           "path": "products/llm_analytics",
-          "fileCount": 26
-        }
-      ]
-    },
-    {
-      "login": "webjunkie",
-      "name": "Julian Bez",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/59713?u=7bfc22f91a964d0015731031bccaebdf5bddb754&v=4",
-      "rank": 2,
-      "compositeScore": 83.1,
-      "why": [
-        "Touched 165 codebase areas — broadest codebase reach",
-        "Reviewed 130 PRs from 47 authors — reviewed widely",
-        "Shipped 127 PRs across 12 of 13 weeks — top 4%"
-      ],
-      "dimensions": {
-        "shipping": 87.8,
-        "reach": 93,
-        "reviewImpact": 91,
-        "collaboration": 64.6,
-        "changeSignificance": 68.4
-      },
-      "raw": {
-        "mergedPrCount": 127,
-        "activeWeeks": 12,
-        "totalWeeks": 13,
-        "shippingConsistency": 0.9230769230769231,
-        "medianMergeHours": 10.2,
-        "p90MergeHours": 101.4,
-        "uniqueTopDirs": 48,
-        "uniqueSecondLevelDirs": 165,
-        "directoryEntropy": 3.32,
-        "crossAreaPrRatio": 0.48,
-        "reviewsGiven": 130,
-        "uniqueAuthorsReviewed": 47,
-        "reviewsOnMergedPrs": 130,
-        "medianReviewTurnaroundHours": 6.2,
-        "uniqueCollaborators": 56,
-        "bidirectionalCollaborators": 23,
-        "commentCount": 0,
-        "avgFilesChangedPerPr": 9.6,
-        "avgNetLinesPerPr": 308,
-        "multiAreaPrCount": 36,
-        "nonTrivialPrRatio": 0.5
-      },
-      "weeklyActivity": [
-        {
-          "week": "2025-12-08",
-          "mergedPrs": 2,
-          "reviewsGiven": 5
-        },
-        {
-          "week": "2025-12-15",
-          "mergedPrs": 19,
-          "reviewsGiven": 4
-        },
-        {
-          "week": "2026-01-05",
-          "mergedPrs": 12,
-          "reviewsGiven": 12
-        },
-        {
-          "week": "2026-01-12",
-          "mergedPrs": 11,
-          "reviewsGiven": 12
-        },
-        {
-          "week": "2026-01-19",
-          "mergedPrs": 4,
-          "reviewsGiven": 7
-        },
-        {
-          "week": "2026-01-26",
-          "mergedPrs": 10,
-          "reviewsGiven": 18
-        },
-        {
-          "week": "2026-02-02",
-          "mergedPrs": 11,
-          "reviewsGiven": 12
-        },
-        {
-          "week": "2026-02-09",
-          "mergedPrs": 9,
-          "reviewsGiven": 10
-        },
-        {
-          "week": "2026-02-16",
-          "mergedPrs": 21,
-          "reviewsGiven": 18
-        },
-        {
-          "week": "2026-02-23",
-          "mergedPrs": 7,
-          "reviewsGiven": 5
-        },
-        {
-          "week": "2026-03-02",
-          "mergedPrs": 13,
-          "reviewsGiven": 18
-        },
-        {
-          "week": "2026-03-09",
-          "mergedPrs": 8,
-          "reviewsGiven": 9
-        }
-      ],
-      "topDirectories": [
-        {
-          "path": ".github/workflows",
-          "fileCount": 195
-        },
-        {
-          "path": "products/visual_review",
-          "fileCount": 62
-        },
-        {
-          "path": "common/hogli",
-          "fileCount": 52
-        },
-        {
-          "path": "frontend/src",
-          "fileCount": 48
-        },
-        {
-          "path": "services/mcp",
-          "fileCount": 29
-        },
-        {
-          "path": "posthog/api",
-          "fileCount": 29
-        },
-        {
-          "path": "docs/published",
-          "fileCount": 26
-        },
-        {
-          "path": "rust/cymbal",
-          "fileCount": 25
-        }
-      ]
-    },
-    {
-      "login": "havenbarnes",
-      "name": "Haven",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12489563?u=fd615b61121b4aa357d356ca3dadfe23f411a084&v=4",
-      "rank": 3,
-      "compositeScore": 81.6,
-      "why": [
-        "Reviewed 143 PRs from 23 authors — reviewed widely",
-        "Shipped 65 PRs across 13 of 13 weeks — top 23%",
-        "Touched 32 codebase areas — wide reach"
-      ],
-      "dimensions": {
-        "shipping": 87,
-        "reach": 87,
-        "reviewImpact": 90.4,
-        "collaboration": 53.9,
-        "changeSignificance": 79.7
-      },
-      "raw": {
-        "mergedPrCount": 65,
-        "activeWeeks": 13,
-        "totalWeeks": 13,
-        "shippingConsistency": 1,
-        "medianMergeHours": 17.4,
-        "p90MergeHours": 165.7,
-        "uniqueTopDirs": 11,
-        "uniqueSecondLevelDirs": 32,
-        "directoryEntropy": 2.38,
-        "crossAreaPrRatio": 0.52,
-        "reviewsGiven": 143,
-        "uniqueAuthorsReviewed": 23,
-        "reviewsOnMergedPrs": 143,
-        "medianReviewTurnaroundHours": 13.4,
-        "uniqueCollaborators": 36,
-        "bidirectionalCollaborators": 8,
-        "commentCount": 0,
-        "avgFilesChangedPerPr": 7.7,
-        "avgNetLinesPerPr": 321,
-        "multiAreaPrCount": 16,
-        "nonTrivialPrRatio": 0.68
-      },
-      "weeklyActivity": [
-        {
-          "week": "2025-12-08",
-          "mergedPrs": 0,
-          "reviewsGiven": 2
-        },
-        {
-          "week": "2025-12-15",
-          "mergedPrs": 5,
-          "reviewsGiven": 12
-        },
-        {
-          "week": "2025-12-22",
-          "mergedPrs": 1,
-          "reviewsGiven": 1
-        },
-        {
-          "week": "2025-12-29",
-          "mergedPrs": 2,
-          "reviewsGiven": 1
-        },
-        {
-          "week": "2026-01-05",
-          "mergedPrs": 5,
-          "reviewsGiven": 2
-        },
-        {
-          "week": "2026-01-12",
-          "mergedPrs": 6,
-          "reviewsGiven": 11
-        },
-        {
-          "week": "2026-01-19",
-          "mergedPrs": 7,
-          "reviewsGiven": 7
-        },
-        {
-          "week": "2026-01-26",
-          "mergedPrs": 6,
-          "reviewsGiven": 12
-        },
-        {
-          "week": "2026-02-02",
-          "mergedPrs": 6,
-          "reviewsGiven": 21
-        },
-        {
-          "week": "2026-02-09",
-          "mergedPrs": 6,
-          "reviewsGiven": 35
-        },
-        {
-          "week": "2026-02-16",
-          "mergedPrs": 1,
-          "reviewsGiven": 19
-        },
-        {
-          "week": "2026-02-23",
-          "mergedPrs": 10,
-          "reviewsGiven": 9
-        },
-        {
-          "week": "2026-03-02",
-          "mergedPrs": 9,
-          "reviewsGiven": 11
-        },
-        {
-          "week": "2026-03-09",
-          "mergedPrs": 1,
-          "reviewsGiven": 0
-        }
-      ],
-      "topDirectories": [
-        {
-          "path": "products/workflows",
-          "fileCount": 163
-        },
-        {
-          "path": "nodejs/src",
-          "fileCount": 156
-        },
-        {
-          "path": "frontend/src",
-          "fileCount": 53
-        },
-        {
-          "path": "rust/cyclotron-core",
-          "fileCount": 23
-        },
-        {
-          "path": "posthog/api",
-          "fileCount": 22
-        },
-        {
-          "path": "plugin-server/src",
-          "fileCount": 17
-        },
-        {
-          "path": "frontend/__snapshots__",
-          "fileCount": 13
-        },
-        {
-          "path": "posthog/models",
-          "fileCount": 7
+          "fileCount": 28
         }
       ]
     },
@@ -443,52 +157,47 @@
       "login": "skoob13",
       "name": "Georgiy Tarasov",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13541795?u=9a2f43a55641125d128f4436eab68067deecff23&v=4",
-      "rank": 4,
-      "compositeScore": 81.2,
+      "rank": 2,
+      "compositeScore": 81.4,
       "why": [
-        "Shipped 88 PRs across 14 of 14 weeks — top 10%",
-        "Touched 39 codebase areas — wide reach",
-        "66% non-trivial PRs, avg 9 files per PR — substantial changes"
+        "Touched 34 codebase areas — wide reach",
+        "Shipped 71 PRs across 10 of 13 weeks — top 9%",
+        "Reviewed 80 PRs from 16 authors — reviewed widely"
       ],
       "dimensions": {
-        "shipping": 94.8,
-        "reach": 86.1,
-        "reviewImpact": 79.1,
-        "collaboration": 49.6,
-        "changeSignificance": 81.7
+        "shipping": 89,
+        "reach": 89.3,
+        "reviewImpact": 83.5,
+        "collaboration": 51.9,
+        "changeSignificance": 82.6
       },
       "raw": {
-        "mergedPrCount": 88,
-        "activeWeeks": 14,
-        "totalWeeks": 14,
-        "shippingConsistency": 1.0769230769230769,
-        "medianMergeHours": 4.3,
-        "p90MergeHours": 144.8,
-        "uniqueTopDirs": 17,
-        "uniqueSecondLevelDirs": 39,
-        "directoryEntropy": 2.38,
-        "crossAreaPrRatio": 0.45,
-        "reviewsGiven": 120,
-        "uniqueAuthorsReviewed": 19,
-        "reviewsOnMergedPrs": 120,
-        "medianReviewTurnaroundHours": 16.1,
-        "uniqueCollaborators": 31,
-        "bidirectionalCollaborators": 7,
+        "mergedPrCount": 71,
+        "activeWeeks": 10,
+        "totalWeeks": 13,
+        "shippingConsistency": 0.7692307692307693,
+        "medianMergeHours": 2.5,
+        "p90MergeHours": 112.4,
+        "uniqueTopDirs": 16,
+        "uniqueSecondLevelDirs": 34,
+        "directoryEntropy": 2.53,
+        "crossAreaPrRatio": 0.46,
+        "reviewsGiven": 80,
+        "uniqueAuthorsReviewed": 16,
+        "reviewsOnMergedPrs": 80,
+        "medianReviewTurnaroundHours": 1.1,
+        "uniqueCollaborators": 26,
+        "bidirectionalCollaborators": 6,
         "commentCount": 0,
-        "avgFilesChangedPerPr": 9.3,
-        "avgNetLinesPerPr": 368,
-        "multiAreaPrCount": 22,
-        "nonTrivialPrRatio": 0.66
+        "avgFilesChangedPerPr": 8.1,
+        "avgNetLinesPerPr": 261,
+        "multiAreaPrCount": 19,
+        "nonTrivialPrRatio": 0.63
       },
       "weeklyActivity": [
         {
-          "week": "2025-12-08",
-          "mergedPrs": 2,
-          "reviewsGiven": 1
-        },
-        {
           "week": "2025-12-15",
-          "mergedPrs": 4,
+          "mergedPrs": 3,
           "reviewsGiven": 6
         },
         {
@@ -504,78 +213,64 @@
         {
           "week": "2026-01-05",
           "mergedPrs": 11,
-          "reviewsGiven": 8
-        },
-        {
-          "week": "2026-01-12",
-          "mergedPrs": 6,
-          "reviewsGiven": 12
-        },
-        {
-          "week": "2026-01-19",
-          "mergedPrs": 6,
-          "reviewsGiven": 5
+          "reviewsGiven": 4
         },
         {
           "week": "2026-01-26",
-          "mergedPrs": 1,
-          "reviewsGiven": 5
+          "mergedPrs": 0,
+          "reviewsGiven": 3
         },
         {
           "week": "2026-02-02",
-          "mergedPrs": 6,
-          "reviewsGiven": 6
+          "mergedPrs": 5,
+          "reviewsGiven": 5
         },
         {
           "week": "2026-02-09",
           "mergedPrs": 9,
-          "reviewsGiven": 18
+          "reviewsGiven": 6
         },
         {
           "week": "2026-02-16",
-          "mergedPrs": 12,
-          "reviewsGiven": 8
+          "mergedPrs": 11,
+          "reviewsGiven": 7
         },
         {
           "week": "2026-02-23",
           "mergedPrs": 9,
-          "reviewsGiven": 24
+          "reviewsGiven": 21
         },
         {
           "week": "2026-03-02",
-          "mergedPrs": 10,
+          "mergedPrs": 7,
           "reviewsGiven": 11
         },
         {
           "week": "2026-03-09",
-          "mergedPrs": 6,
-          "reviewsGiven": 7
+          "mergedPrs": 10,
+          "reviewsGiven": 8
         }
       ],
       "topDirectories": [
         {
           "path": "ee/hogai",
-          "fileCount": 335
+          "fileCount": 198
         },
         {
           "path": "services/mcp",
-          "fileCount": 112
-        },
-        {
-          "path": "products/posthog_ai",
-          "fileCount": 81
-        },
-        {
-          "path": "frontend/src",
-          "fileCount": 65
+          "fileCount": 86
         },
         {
           "path": "frontend/__snapshots__",
-          "fileCount": 65
+          "fileCount": 61
         },
         {
-          "path": "posthog/api",
-          "fileCount": 14
+          "path": "products/posthog_ai",
+          "fileCount": 49
+        },
+        {
+          "path": "frontend/src",
+          "fileCount": 42
         },
         {
           "path": "services/llm-gateway",
@@ -584,6 +279,266 @@
         {
           "path": "products/tasks",
           "fileCount": 10
+        },
+        {
+          "path": "posthog/api",
+          "fileCount": 8
+        }
+      ]
+    },
+    {
+      "login": "webjunkie",
+      "name": "Julian Bez",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59713?u=7bfc22f91a964d0015731031bccaebdf5bddb754&v=4",
+      "rank": 3,
+      "compositeScore": 81.2,
+      "why": [
+        "Touched 125 codebase areas — top 2 broadest reach",
+        "Reviewed 77 PRs from 32 authors — reviewed widely",
+        "Shipped 94 PRs across 9 of 13 weeks — top 3%"
+      ],
+      "dimensions": {
+        "shipping": 85.2,
+        "reach": 92.2,
+        "reviewImpact": 87.2,
+        "collaboration": 64.1,
+        "changeSignificance": 67.5
+      },
+      "raw": {
+        "mergedPrCount": 94,
+        "activeWeeks": 9,
+        "totalWeeks": 13,
+        "shippingConsistency": 0.6923076923076923,
+        "medianMergeHours": 4.4,
+        "p90MergeHours": 35.1,
+        "uniqueTopDirs": 37,
+        "uniqueSecondLevelDirs": 125,
+        "directoryEntropy": 3.16,
+        "crossAreaPrRatio": 0.44,
+        "reviewsGiven": 77,
+        "uniqueAuthorsReviewed": 32,
+        "reviewsOnMergedPrs": 77,
+        "medianReviewTurnaroundHours": 3.6,
+        "uniqueCollaborators": 47,
+        "bidirectionalCollaborators": 16,
+        "commentCount": 0,
+        "avgFilesChangedPerPr": 8,
+        "avgNetLinesPerPr": 284,
+        "multiAreaPrCount": 24,
+        "nonTrivialPrRatio": 0.47
+      },
+      "weeklyActivity": [
+        {
+          "week": "2025-12-15",
+          "mergedPrs": 17,
+          "reviewsGiven": 4
+        },
+        {
+          "week": "2026-01-05",
+          "mergedPrs": 15,
+          "reviewsGiven": 11
+        },
+        {
+          "week": "2026-01-26",
+          "mergedPrs": 3,
+          "reviewsGiven": 6
+        },
+        {
+          "week": "2026-02-02",
+          "mergedPrs": 11,
+          "reviewsGiven": 9
+        },
+        {
+          "week": "2026-02-09",
+          "mergedPrs": 5,
+          "reviewsGiven": 5
+        },
+        {
+          "week": "2026-02-16",
+          "mergedPrs": 16,
+          "reviewsGiven": 16
+        },
+        {
+          "week": "2026-02-23",
+          "mergedPrs": 6,
+          "reviewsGiven": 5
+        },
+        {
+          "week": "2026-03-02",
+          "mergedPrs": 10,
+          "reviewsGiven": 11
+        },
+        {
+          "week": "2026-03-09",
+          "mergedPrs": 11,
+          "reviewsGiven": 10
+        }
+      ],
+      "topDirectories": [
+        {
+          "path": ".github/workflows",
+          "fileCount": 159
+        },
+        {
+          "path": "frontend/src",
+          "fileCount": 33
+        },
+        {
+          "path": "posthog/api",
+          "fileCount": 31
+        },
+        {
+          "path": "docs/published",
+          "fileCount": 26
+        },
+        {
+          "path": "rust/cymbal",
+          "fileCount": 25
+        },
+        {
+          "path": "services/mcp",
+          "fileCount": 17
+        },
+        {
+          "path": "products/error_tracking",
+          "fileCount": 16
+        },
+        {
+          "path": "common/hogli",
+          "fileCount": 15
+        }
+      ]
+    },
+    {
+      "login": "andrewm4894",
+      "name": "Andrew Maguire",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2178292?u=8461034c2873afbebfe143bfb48bdc409bdc2980&v=4",
+      "rank": 4,
+      "compositeScore": 79.7,
+      "why": [
+        "Shipped 160 PRs across 11 of 13 weeks — most prolific shipper",
+        "Reviewed 116 PRs from 29 authors — reviewed widely",
+        "Active 11 of 13 weeks (85% consistency) — steady cadence"
+      ],
+      "dimensions": {
+        "shipping": 96.8,
+        "reach": 72.2,
+        "reviewImpact": 94.2,
+        "collaboration": 62.6,
+        "changeSignificance": 53.3
+      },
+      "raw": {
+        "mergedPrCount": 160,
+        "activeWeeks": 11,
+        "totalWeeks": 13,
+        "shippingConsistency": 0.8461538461538461,
+        "medianMergeHours": 2.6,
+        "p90MergeHours": 62.4,
+        "uniqueTopDirs": 15,
+        "uniqueSecondLevelDirs": 30,
+        "directoryEntropy": 2.1,
+        "crossAreaPrRatio": 0.28,
+        "reviewsGiven": 116,
+        "uniqueAuthorsReviewed": 29,
+        "reviewsOnMergedPrs": 116,
+        "medianReviewTurnaroundHours": 0.7,
+        "uniqueCollaborators": 39,
+        "bidirectionalCollaborators": 14,
+        "commentCount": 0,
+        "avgFilesChangedPerPr": 4.6,
+        "avgNetLinesPerPr": 169,
+        "multiAreaPrCount": 11,
+        "nonTrivialPrRatio": 0.48
+      },
+      "weeklyActivity": [
+        {
+          "week": "2025-12-15",
+          "mergedPrs": 6,
+          "reviewsGiven": 3
+        },
+        {
+          "week": "2025-12-22",
+          "mergedPrs": 1,
+          "reviewsGiven": 0
+        },
+        {
+          "week": "2026-01-05",
+          "mergedPrs": 11,
+          "reviewsGiven": 6
+        },
+        {
+          "week": "2026-01-19",
+          "mergedPrs": 1,
+          "reviewsGiven": 0
+        },
+        {
+          "week": "2026-01-26",
+          "mergedPrs": 8,
+          "reviewsGiven": 5
+        },
+        {
+          "week": "2026-02-02",
+          "mergedPrs": 37,
+          "reviewsGiven": 22
+        },
+        {
+          "week": "2026-02-09",
+          "mergedPrs": 25,
+          "reviewsGiven": 19
+        },
+        {
+          "week": "2026-02-16",
+          "mergedPrs": 12,
+          "reviewsGiven": 14
+        },
+        {
+          "week": "2026-02-23",
+          "mergedPrs": 34,
+          "reviewsGiven": 21
+        },
+        {
+          "week": "2026-03-02",
+          "mergedPrs": 12,
+          "reviewsGiven": 14
+        },
+        {
+          "week": "2026-03-09",
+          "mergedPrs": 13,
+          "reviewsGiven": 12
+        }
+      ],
+      "topDirectories": [
+        {
+          "path": "posthog/temporal",
+          "fileCount": 291
+        },
+        {
+          "path": "products/llm_analytics",
+          "fileCount": 236
+        },
+        {
+          "path": "nodejs/src",
+          "fileCount": 50
+        },
+        {
+          "path": "frontend/__snapshots__",
+          "fileCount": 49
+        },
+        {
+          "path": "services/mcp",
+          "fileCount": 26
+        },
+        {
+          "path": "frontend/src",
+          "fileCount": 23
+        },
+        {
+          "path": "posthog/session_recordings",
+          "fileCount": 6
+        },
+        {
+          "path": "posthog/api",
+          "fileCount": 5
         }
       ]
     },
@@ -592,51 +547,51 @@
       "name": "Tom Piccirello",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8296030?u=1474757971bd6e578161aea04684a625424db237&v=4",
       "rank": 5,
-      "compositeScore": 78.4,
+      "compositeScore": 78.1,
       "why": [
-        "Reviewed 167 PRs from 45 authors — reviewed widely",
-        "Shipped 91 PRs across 11 of 13 weeks — top 10%",
-        "Touched 80 codebase areas — top 3 broadest reach"
+        "Reviewed 111 PRs from 39 authors — reviewed widely",
+        "Shipped 63 PRs across 9 of 13 weeks — top 11%",
+        "Touched 64 codebase areas — top 3 broadest reach"
       ],
       "dimensions": {
         "shipping": 82.3,
-        "reach": 80.3,
-        "reviewImpact": 95.9,
+        "reach": 77.7,
+        "reviewImpact": 95.7,
         "collaboration": 64.6,
-        "changeSignificance": 58.6
+        "changeSignificance": 60.3
       },
       "raw": {
-        "mergedPrCount": 91,
-        "activeWeeks": 11,
+        "mergedPrCount": 63,
+        "activeWeeks": 9,
         "totalWeeks": 13,
-        "shippingConsistency": 0.8461538461538461,
-        "medianMergeHours": 3.5,
-        "p90MergeHours": 45.9,
-        "uniqueTopDirs": 14,
-        "uniqueSecondLevelDirs": 80,
-        "directoryEntropy": 2.15,
-        "crossAreaPrRatio": 0.33,
-        "reviewsGiven": 167,
-        "uniqueAuthorsReviewed": 45,
-        "reviewsOnMergedPrs": 167,
-        "medianReviewTurnaroundHours": 2.6,
-        "uniqueCollaborators": 61,
-        "bidirectionalCollaborators": 22,
+        "shippingConsistency": 0.6923076923076923,
+        "medianMergeHours": 1.2,
+        "p90MergeHours": 15.6,
+        "uniqueTopDirs": 10,
+        "uniqueSecondLevelDirs": 64,
+        "directoryEntropy": 2.04,
+        "crossAreaPrRatio": 0.3,
+        "reviewsGiven": 111,
+        "uniqueAuthorsReviewed": 39,
+        "reviewsOnMergedPrs": 111,
+        "medianReviewTurnaroundHours": 1.5,
+        "uniqueCollaborators": 52,
+        "bidirectionalCollaborators": 17,
         "commentCount": 0,
-        "avgFilesChangedPerPr": 6.4,
-        "avgNetLinesPerPr": 156,
-        "multiAreaPrCount": 15,
-        "nonTrivialPrRatio": 0.47
+        "avgFilesChangedPerPr": 6.6,
+        "avgNetLinesPerPr": 114,
+        "multiAreaPrCount": 9,
+        "nonTrivialPrRatio": 0.43
       },
       "weeklyActivity": [
         {
-          "week": "2025-12-08",
+          "week": "2025-12-01",
           "mergedPrs": 0,
-          "reviewsGiven": 2
+          "reviewsGiven": 7
         },
         {
           "week": "2025-12-15",
-          "mergedPrs": 17,
+          "mergedPrs": 16,
           "reviewsGiven": 12
         },
         {
@@ -652,81 +607,71 @@
         {
           "week": "2026-01-05",
           "mergedPrs": 15,
-          "reviewsGiven": 18
-        },
-        {
-          "week": "2026-01-12",
-          "mergedPrs": 19,
-          "reviewsGiven": 17
-        },
-        {
-          "week": "2026-01-19",
-          "mergedPrs": 4,
-          "reviewsGiven": 14
+          "reviewsGiven": 13
         },
         {
           "week": "2026-01-26",
-          "mergedPrs": 2,
-          "reviewsGiven": 18
+          "mergedPrs": 1,
+          "reviewsGiven": 6
         },
         {
           "week": "2026-02-02",
           "mergedPrs": 7,
-          "reviewsGiven": 20
+          "reviewsGiven": 19
         },
         {
           "week": "2026-02-09",
-          "mergedPrs": 5,
-          "reviewsGiven": 12
+          "mergedPrs": 4,
+          "reviewsGiven": 9
         },
         {
           "week": "2026-02-23",
-          "mergedPrs": 14,
-          "reviewsGiven": 30
+          "mergedPrs": 13,
+          "reviewsGiven": 19
         },
         {
           "week": "2026-03-02",
-          "mergedPrs": 3,
+          "mergedPrs": 2,
           "reviewsGiven": 15
         },
         {
           "week": "2026-03-09",
           "mergedPrs": 3,
-          "reviewsGiven": 5
+          "reviewsGiven": 7
         }
       ],
       "topDirectories": [
         {
           "path": "posthog/api",
-          "fileCount": 104
+          "fileCount": 72
         },
         {
           "path": ".github/workflows",
-          "fileCount": 69
+          "fileCount": 65
         },
         {
           "path": "posthog/temporal",
-          "fileCount": 38
+          "fileCount": 32
         },
         {
           "path": "ee/api",
-          "fileCount": 28
-        },
-        {
-          "path": "posthog/models",
-          "fileCount": 23
-        },
-        {
-          "path": "posthog/tasks",
-          "fileCount": 21
-        },
-        {
-          "path": ".semgrep/rules",
-          "fileCount": 19
+          "fileCount": 26
         },
         {
           "path": "ee/hogai",
           "fileCount": 17
+        },
+        {
+          "path": "posthog/models",
+          "fileCount": 15
+        },
+        {
+          "path": "posthog/admin",
+          "fileCount": 15
+        },
+        {
+          "path": "posthog/tasks",
+          "fileCount": 13
         }
       ]
     }

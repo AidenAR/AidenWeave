@@ -1,0 +1,45 @@
+name: Daily Data Update
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # 6 AM UTC daily
+  workflow_dispatch:       # manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Restore PR cache
+        uses: actions/cache@v4
+        with:
+          path: data/raw-prs.json
+          key: pr-cache-${{ github.ref }}
+          restore-keys: pr-cache-
+
+      - name: Fetch and analyze
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: npx tsx scripts/fetch-and-analyze.ts --days 90
+
+      - name: Build dashboard
+        run: npm run build
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/analysis.json
+          git diff --cached --quiet || git commit -m "chore: update analysis data ($(date -u +%Y-%m-%d))"
+          git push
